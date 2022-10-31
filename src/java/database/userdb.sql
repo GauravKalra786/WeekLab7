@@ -24,3 +24,12 @@ REFERENCES `userdb ` . `role` (`role_id`));
 
 INSERT INTO 'role' VALUES (1, 'system admin');
 INSERT INTO 'role' VALUES (2, 'system user');
+
+INSERT INTO `user` (`email`,`first_name`,`last_name`,`password`,`role`)
+	VALUES ('cprg352+admin@gmail.com', 'Admin','Admin', 'password', 1);
+INSERT INTO `user` (`email`,`first_name`,`last_name`,`password`,`role`)
+	VALUES ('cprg352+admin2@gmail.com', 'Admin2','Admin2', 'password', 1);
+INSERT INTO `user` (`email`,`first_name`,`last_name`,`password`,`role`)
+	VALUES ('cprg352+anne@gmail.com', 'Anne','Annerson', 'password', 2);
+INSERT INTO `user` (`email`,`first_name`,`last_name`,`password`,`role`)
+	VALUES ('cprg352+barb@gmail.com', 'Barb','Barber', 'password', 2);
